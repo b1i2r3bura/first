@@ -382,7 +382,7 @@ footer {
 @keyframes drop {
     0% {
         opacity: 0;
-        transform: translateY(-50px);
+        transform: translateY(-50px)
     }
     100% {
         opacity: 1;
@@ -395,9 +395,11 @@ footer {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-     background-image: url(image/books.jpg) ;
+    
+    background:rgba(255,255,255,0.2);
+    background-filter:blur(10px);
     .login-form {
-    background: white;
+    /*background: white; */
     padding: 3rem;
     border-radius: 8px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.2);
