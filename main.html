@@ -1,0 +1,846 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="Discover your favorite book from our extensive collection at BookSphere.">
+    <title>BookSphere - Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="tostick">
+        <header>
+        <div class="header-content">
+            <h1 class="logo"><a href="#top"><i class="fas fa-book" style="font-size: 54px; color:black; margin-right: 10px; "></i>BookSphere</a></h1>
+            <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="Search for books...">
+                <button id="searchBtn"><i class="fas fa-search"></i></button>
+            </div>
+            <div class="user-actions">
+                <button id="cartBtn"><i class="fas fa-shopping-cart"></i> Cart (<span id="cartCount">0</span>)</button>
+                <button id="logoutBtn"><i class="fas fa-sign-out-alt"></i> Logout</button>
+            </div>
+        </div>
+    </header>
+  <nav class="categories-nav">
+        <ul>
+            <li><a href="#fiction">Fiction</a></li>
+            <li><a href="#mystery">Mystery</a></li>
+            <li><a href="#romance">Romance</a></li>
+            <li><a href="#scifi">Sci-Fi</a></li>
+            <li><a href="#fantasy">Fantasy</a></li>
+            <li><a href="#biography">Biography</a></li>
+            <li><a href="#history">History</a></li>
+            <li><a href="#science">Science</a></li>
+            <li><a href="#selfhelp">Self-Help</a></li>
+            <li><a href="#children">Children's</a></li>
+            <li><a href="#poetry">Poetry</a></li>
+            <li><a href="#travel">Travel</a></li>
+        </ul>
+    </nav>
+    </div>
+    <div id="top"></div>
+
+    <main>
+        <section class="hero">
+           <h1>Welcome to BookSphere</h1>
+            <p>Discover your favorite book from our extensive collection</p>
+           
+        </section>
+
+        <section id="fiction" class="category">
+            <h2>Fiction</h2>
+            <div class="books-container">
+                <div class="book-card" data-title=" fikir eske mekaber" data-author="hadias alemayhu" data-price="12.99" data-category="fiction">
+                    <img src="image/fiction/fikir.jpg" alt=" book of ፍቅር እስከ መቃብር" width="150" height="200">
+                    <div class="book-info">
+                        <h3>ፍቅር እስከ መቃብር</h3>
+                        <p>ሀዲያስ አለማየሁ</p>
+                        <p style="color : #667eea; font-weight: bold; ">$12.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="book-tooltip">
+                        <strong>Author:</strong><h4>ሀዲያስ አለማየሁ</h4>
+                        <p><strong>Description:</strong> The story follows the star-crossed love between Seblewongel, the daughter of a powerful nobleman, and Bezabih, a humble commoner and tutor,
+                             whose bond serves as a defiant challenge to the deep-seated class prejudices and traditional social hierarchies of the era.</p>
+                    </div>
+                </div>
+                <div class="book-card" data-title="zubeyda" data-author="behalu girma " data-price="10.99" data-category="fiction">
+                    <img src="image/fiction/zubeyda.webp" alt="zubeyda book" width="150" height="200">
+                    <div class="book-info">
+                        <h3>ዙቤይዳ</h3>
+                        <p>በአሉ ግርማ</p>
+                        <p>$10.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="book-tooltip">
+                        <strong>Author:</strong><h4> በአሉ ግርማ</h4>
+                        <p><strong>Description:</strong> the story centers on the protagonist's intense and transformative relationship with the titular character,
+                             Zubeyda, whose enigmatic presence challenges traditional norms and sparks a profound internal conflict.</p>
+                    </div>
+                </div>
+                <div class="book-card" data-title="dertogada" data-author="ይስማቀ ወርቁ" data-price="11.99" data-category="fiction">
+                    <img src="image/fiction/dertogada.jpg" alt="books of dertogada" width="150" height="200">
+                    <div class="book-info">
+                        <h3>ዴርቶጋዳ</h3>
+                        <p>ይስማቀ ወርቁ</p>
+                        <p>$11.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="book-tooltip">
+                        <strong>Author:</strong><h4> ይስማቀ ወርቁ</h4>
+                        <p><strong>Description:</strong>The plot centers on Shagiz Ejigu—a brilliant NASA scientist inspired by the real-life Kitaw Ejigu—who becomes the target
+                             of international intelligence agencies "</p>
+                    </div>
+                </div>
+                <div class="book-card" data-title="sememen" data-author="ሲሳይ ንጉሱ" data-price="15.99" data-category="fiction">
+                    <img src="image/fiction/sememen.jpg" alt="book of sememen" width="150" height="200">
+                    <div class="book-info">
+                        <h3>ሰመመን</h3>
+                        <p>ሲሳይ ንጉሱ</p>
+                        <p>$15.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="book-tooltip">
+                        <strong>Author:</strong><h4> ሲሳይ ንጉሱ</h4>
+                        <p><strong>Description:</strong>a classic of modern Amharic literature that masterfully explores the psychological and emotional landscapes of youth, romance, and academic life</p>
+                    </div>
+                </div>
+                <div class="book-card" data-title="melos" data-author="ፍቅረማርቆስ ደስታ" data-price="16.99" data-category="fiction">
+                    <img src="image/fiction/melos.jpg" alt="book of melos" width="150" height="200">
+                    <div class="book-info">
+                        <h3>ሜሎስ</h3>
+                        <p>ፍቅረማርቆስ ደስታ</p>
+                        <p>$16.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="book-tooltip">
+                        <strong>Author:</strong><h4> ፍቅረማርቆስ ደስታ</h4>
+                        <p><strong>Description:</strong> the novel follows its protagonist through a series of internal and external trials that challenge their perceptions
+                             of truth and identity.</p>
+                    </div>
+                </div>
+                <div class="book-card" data-title="alemenor" data-author="ዳዊት ወንድማገኝ" data-price="14.99" data-category="fiction">
+                    <img src="image/fiction/alemenor.jpg" alt="book of alemenor" width="150" height="200">
+                    <div class="book-info">
+                        <h3>አለመኖር</h3>
+                        <p>ዳዊት ወንድማገኝ</p>
+                        <p>$14.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="book-tooltip">
+                        <p><strong>Author:</strong> <h4> ዳዊት ወንድማገኝ</h4>
+                        <p><strong>Description:</strong> a profound and experimental novel that explores the existential concept of "non-existence" or "not-being." 
+                            Through a series of deeply philosophical and psychological narratives</p>
+                    </div>
+                </div>
+                <div class="book-card" data-title="Tebera" data-author="ኤፍሬም ስዮም" data-price="13.99" data-category="fiction">
+                    <img src="image/fiction/tebera.jpg" alt="book of tebera" width="150" height="200">
+                    <div class="book-info">
+                        <h3>ተቤራ</h3>
+                        <p>ኤፍሬም ስዮም</p>
+                        <p>$13.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="book-tooltip">
+                        <p><strong>Author:</strong> <h4>ኤፍሬም ስዮም</h4>
+                        <p><strong>Description:</strong> a deeply evocative and symbolic novel that uses rich imagery to explore the intersection of human emotion, history, and the natural world. 
+                            The narrative often blurs the lines between reality and metaphor.</p>
+                    </div>
+                </div>
+                <div class="book-card" data-title="birkirkta" data-author="አዳም ረታ" data-price="12.99" data-category="fiction">
+                    <img src="image/fiction/hardname.jpg" alt="book of birkirkta" width="150" height="200">
+                    <div class="book-info">
+                        <h3>ብርቅርቅታ</h3>
+                        <p>አዳም ረታ</p>
+                        <p>$12.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="book-tooltip">
+                        <strong>Author:</strong><h4> አዳም ረታ</h4>
+                        <p><strong>Description:</strong> The novel is a complex, multi-layered tapestry of interconnected lives, focusing on the intricate details of urban life
+                            , memory, and the fragmented nature of human experience.</p>
+                    </div>
+                </div>
+                <div class="book-card" data-title="temsalet" data-author="moges Shiferaw" data-price="11.99" data-category="fiction">
+                    <img src="image/fiction/tmsalet.jpg" alt="book of tmsalet" width="150" height="200">
+                    <div class="book-info">
+                        <h3>ተምሳሌት</h3>
+                        <p>ሞገስ ሽፈራው</p>
+                        <p>$11.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="book-tooltip">
+                        <p><strong>Author:</strong> <h4>ሞገስ ሽፈራው</h4>
+                        <p><strong>Description:</strong> The story follows the life of an ambitious protagonist navigating the treacherous waters of power, where personal integrity is constantly tested by systemic 
+                            corruption and societal pressures.</p>
+                    </div>
+                </div>
+                </div>
+        </section>
+         
+         <section id="romance" class="category">
+            <h2>Romance</h2>
+            <div class="books-container">
+                <div class="book-card" data-title="Emegua" data-author="አለማየሁ ዋሴ" data-price="9.99" data-category="romance">
+                    <img src="image/romance/emegua.jpg" alt="book of emegua" width="150" height="200">
+                    <div class="book-info">
+                        <h3>እመጓ</h3>
+                        <p>አለማየሁ ዋሴ</p>
+                        <p>$9.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="book-tooltip">
+                        <strong>Author:</strong><h4> አለማየሁ ዋሴ</h4>
+                        <p><strong>Description:</strong> The story follows a young university graduate who embarks on a soul-searching journey to the remote,
+                             ancient monasteries of Ethiopia, specifically seeking the hidden wisdom buried within the enigmatic landscape of Emegua.</p>
+                </div>
+                </div>
+                <div class="book-card" data-title="tidar sikage" data-author="ሙሉጌታ ሉሌ" data-price="12.99" data-category="romance">
+                    <img src="image/romance/tidar.jpg" alt="Book of tidat sifeten" width="150" height="200">
+                    <div class="book-info">
+                        <h3> ትዳር ሲቃኝ</h3>
+                        <p>ሙሉጌታ ሉሌ</p>
+                        <p>$12.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                     <div class="book-tooltip">
+                        <p><strong>Author:</strong><h4> ሙሉጌታ ሉሌ</h4>
+                        <p><strong>Description:</strong>he narrative follows the lives of a couple whose relationship is strained by external social expectations, 
+                            financial struggles, and the erosion of communication, serving as a poignant exploration of loyalty, patience, and the fragile nature of domestic stability</p>
+                </div>
+                </div>
+                <div class="book-card" data-title="shegye" data-author="ፀጋዬ ገብረ-መድን" data-price="16.99" data-category="romance">
+                    <img src="image/romance/shegye.jpg" alt="book of shegye" width="150" height="200">
+                    <div class="book-info">
+                        <h3>ሸግዬ</h3>
+                        <p>ፀጋዬ ገብረ-መድን</p>
+                        <p>$16.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                     <div class="book-tooltip">
+                        <p><strong>Author:</strong><h4> ፀጋዬ ገብረ-መድን</h4>
+                        <p><strong>Description:</strong> The narrative centers on the life of its namesake protagonist,
+                             exploring themes of traditional wisdom, the beauty of the Ethiopian countryside, and the deep-seated cultural values that shape individual destiny</p>
+                </div>
+                </div>
+                <div class="book-card" data-title="tebkshalew" data-author="ሲሳይ ንጉሱ" data-price="14.99" data-category="romance">
+                    <img src="image/romance/tebkshalew.jpg" alt="book of tebkshalew" width="150" height="200">
+                    <div class="book-info">
+                        <h3>ጠብቅሻለሁ</h3>
+                        <p>ሲሳይ ንጉሱ</p>
+                        <p>$14.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                     <div class="book-tooltip">
+                        <p><strong>Author:</strong><h4> ሲሳይ ንጉሱ</h4>
+                        <p><strong>Description:</strong> a classic romantic novel that explores the themes of enduring love, patience,
+                             and the emotional toll of separation. The story captures the deep longing and commitment between two individuals whose
+                              relationship is tested by time. </p>
+                </div>
+                </div>
+                <div class="book-card" data-title="miteralion" data-author="አለማየሁ ዋሴ" data-price="13.99" data-category="romance">
+                    <img src="image/romance/mit.jpg" alt="book of miteralion" width="150" height="200">
+                    <div class="book-info">
+                        <h3>ሚተራሊዮን</h3>
+                        <p>አለማየሁ ዋሴ</p>
+                        <p>$13.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                     <div class="book-tooltip">
+                        <p><strong>Author:</strong><h4> አለማየሁ ዋሴ</h4>
+                        <p><strong>Description:</strong>The novel follows the protagonist as he delves deeper into the hidden mysteries of Ethiopia's ancient wisdom, traveling through
+                             remote monastic landscapes to uncover the "Miteralion"—a symbolic and literal search for a lost, profound truth that connects the physical world with the spiritual realm</p>
+                </div>
+                </div>
+                <div class="book-card" data-title="kelale" data-author="ዶ/ር እዮብ ማሞ" data-price="13.99" data-category="romance">
+                    <img src="image/romance/kelale.jpg" alt="book of kelale" width="150" height="200">
+                    <div class="book-info">
+                        <h3>ቀላሉን ነገር አታካብድ!</h3>
+                        <p>ዶ/ር እዮብ ማሞ</p>
+                        <p>$13.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                     <div class="book-tooltip">
+                        <strong>Author:</strong><h4>ዶ/ር እዮብ ማሞ</h4>
+                        <p><strong>Description:</strong>The book provides practical strategies for managing stress, overcoming daily anxieties, 
+                            and focusing on what truly matters by avoiding the common trap of overreacting to minor inconveniences.</p>
+                </div>
+                </div>
+                 <div class="book-card" data-title="alemawek" data-author="አለማየሁ ዋሴ" data-price="13.99" data-category="romance">
+                    <img src="image/romance/alemawek.webp" alt="book of almeawek" width="150" height="200">
+                    <div class="book-info">
+                        <h3>አለማወቅ</h3>
+                        <p>አለማየሁ ዋሴ</p>
+                        <p>$13.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                     <div class="book-tooltip">
+                        <strong>Author:</strong><h4> አለማየሁ ዋሴ</h4>
+                        <p><strong>Description:</strong>The novel follows the protagonist's continued spiritual pilgrimage
+                             through Ethiopia's sacred landscapes, shifting the focus from the pursuit of hidden knowledge to the attainment of humility</p>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="mystery" class="category">
+            <h2>Mystery</h2>
+            
+            <div class="books-container">
+                <div class="book-card" data-title="The Girl with the Dragon Tattoo" data-author="Stieg Larsson" data-price="14.99" data-category="mystery">
+                    <img src="image/Mystery/Thegirl.jpg" alt="The Girl with the Dragon Tattoo by Stieg Larsson" width="180" height="200">
+                    <div class="book-info">
+                        <h3>The Girl with the Dragon Tattoo</h3>
+                        <p>Stieg Larsson</p>
+                        <p>$14.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                     <div class="book-tooltip">
+                        <strong>Author:</strong><h4> Leo Tolstoy</h4>
+                        <p><strong>Description:</strong> his novels as feeling less like constructed fiction and more like direct, raw life itself, 
+                            as if the world were writing through him.</p>
+                </div>
+                </div>
+                <div class="book-card" data-title="Gone Girl" data-author="Gillian Flynn" data-price="13.99" data-category="mystery">
+                    <img src="image/Mystery/Gonegirl.jpg" alt="Gone Girl by Gillian Flynn" width="180" height="200">
+                    <div class="book-info">
+                        <h3>Gone Girl</h3>
+                        <p>Gillian Flynn</p>
+                        <p>$13.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="book-tooltip">
+                        <strong>Author:</strong><h4> Leo Tolstoy</h4>
+                        <p><strong>Description:</strong> his novels as feeling less like constructed fiction and more like direct, raw life itself, 
+                            as if the world were writing through him.</p>
+                </div>
+                </div>
+                <div class="book-card" data-title="The No. 1 Ladies' Detective Agency" data-author="Alexander McCall Smith" data-price="12.99" data-category="mystery">
+                    <img src="image/Mystery/thenum1.jpg" alt="The No. 1 Ladies' Detective Agency by Alexander McCall Smith" width="220" height="200">
+                    <div class="book-info">
+                        <h3>The No. 1 Ladies' Detective Agency</h3>
+                        <p>Alexander McCall Smith</p>
+                        <p>$12.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="book-tooltip">
+                        <strong>Author:</strong><h4> Leo Tolstoy</h4>
+                        <p><strong>Description:</strong> his novels as feeling less like constructed fiction and more like direct, raw life itself, 
+                            as if the world were writing through him.</p>
+                </div>
+                </div>
+                <div class="book-card" data-title="The Cuckoo's Calling" data-author="Robert Galbraith" data-price="14.99" data-category="mystery">
+                    <img src="image/Mystery/cuckoo.jpg" alt="The Cuckoo's Calling by Robert Galbraith" width="180" height="200">
+                    <div class="book-info">
+                        <h3>The Cuckoo's Calling</h3>
+                        <p>Robert Galbraith</p>
+                        <p>$14.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="book-tooltip">
+                        <strong>Author:</strong><h4> Leo Tolstoy</h4>
+                        <p><strong>Description:</strong> his novels as feeling less like constructed fiction and more like direct, raw life itself, 
+                            as if the world were writing through him.</p>
+                </div>
+                </div>
+                <div class="book-card" data-title="Big Little Lies" data-author="Liane Moriarty" data-price="13.99" data-category="mystery">
+                    <img src="image/Mystery/biglittle.jpg" alt="Big Little Lies by Liane Moriarty" width="180" height="200">
+                    <div class="book-info">
+                        <h3>Big Little Lies</h3>
+                        <p>Liane Moriarty</p>
+                        <p>$13.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="book-tooltip">
+                        <strong>Author:</strong><h4> Leo Tolstoy</h4>
+                        <p><strong>Description:</strong> his novels as feeling less like constructed fiction and more like direct, raw life itself, 
+                            as if the world were writing through him.</p>
+                </div>
+                </div>
+            </div> 
+        </section>
+
+       
+
+        <section id="scifi" class="category">
+            <h2>Sci-Fi</h2>
+            <div class="books-container">
+                <div class="book-card" data-title="Dune" data-author="Frank Herbert" data-price="15.99" data-category="scifi">
+                    <img src="https://covers.openlibrary.org/b/id/7222241-L.jpg" alt="Dune by Frank Herbert" width="180" height="200">
+                    <div class="book-info">
+                        <h3>Dune</h3>
+                        <p>Frank Herbert</p>
+                        <p>$15.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="book-tooltip">
+                        <strong>Author:</strong><h4> Leo Tolstoy</h4>
+                        <p><strong>Description:</strong> his novels as feeling less like constructed fiction and more like direct, raw life itself, 
+                            as if the world were writing through him.</p>
+                </div>
+                </div>
+                <div class="book-card" data-title="Neuromancer" data-author="William Gibson" data-price="13.99" data-category="scifi">
+                    <img src="https://covers.openlibrary.org/b/id/7222256-L.jpg" alt="Neuromancer by William Gibson" width="180" height="200">
+                    <div class="book-info">
+                        <h3>Neuromancer</h3>
+                        <p>William Gibson</p>
+                        <p>$13.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="book-tooltip">
+                        <strong>Author:</strong><h4> Leo Tolstoy</h4>
+                        <p><strong>Description:</strong> his novels as feeling less like constructed fiction and more like direct, raw life itself, 
+                            as if the world were writing through him.</p>
+                </div>
+                </div>
+                <div class="book-card" data-title="The Left Hand of Darkness" data-author="Ursula K. Le Guin" data-price="12.99" data-category="scifi">
+                    <img src="https://covers.openlibrary.org/b/id/7222371-L.jpg" alt="The Left Hand of Darkness by Ursula K. Le Guin" width="180" height="200">
+                    <div class="book-info">
+                        <h3>The Left Hand of Darkness</h3>
+                        <p>Ursula K. Le Guin</p>
+                        <p>$12.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="book-tooltip">
+                        <strong>Author:</strong><h4> Leo Tolstoy</h4>
+                        <p><strong>Description:</strong> his novels as feeling less like constructed fiction and more like direct, raw life itself, 
+                            as if the world were writing through him.</p>
+                </div>
+                </div>
+                <div class="book-card" data-title="Ender's Game" data-author="Orson Scott Card" data-price="11.99" data-category="scifi">
+                    <img src="https://covers.openlibrary.org/b/id/7222381-L.jpg" alt="Ender's Game by Orson Scott Card" width="180" height="200">
+                    <div class="book-info">
+                        <h3>Ender's Game</h3>
+                        <p>Orson Scott Card</p>
+                        <p>$11.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="book-tooltip">
+                        <strong>Author:</strong><h4> Leo Tolstoy</h4>
+                        <p><strong>Description:</strong> his novels as feeling less like constructed fiction and more like direct, raw life itself, 
+                            as if the world were writing through him.</p>
+                </div>
+                </div>
+                <div class="book-card" data-title="The Martian" data-author="Andy Weir" data-price="14.99" data-category="scifi">
+                    <img src="https://covers.openlibrary.org/b/id/7222391-L.jpg" alt="The Martian by Andy Weir" width="180" height="200">
+                    <div class="book-info">
+                        <h3>The Martian</h3>
+                        <p>Andy Weir</p>
+                        <p>$14.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="book-tooltip">
+                        <strong>Author:</strong><h4> Leo Tolstoy</h4>
+                        <p><strong>Description:</strong> his novels as feeling less like constructed fiction and more like direct, raw life itself, 
+                            as if the world were writing through him.</p>
+                </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="fantasy" class="category">
+            <h2>Fantasy</h2>
+            <div class="books-container">
+                <div class="book-card" data-title="The Hobbit" data-author="J.R.R. Tolkien" data-price="14.99" data-category="fantasy">
+                    <img src="https://covers.openlibrary.org/b/id/7222151-L.jpg" alt="The Hobbit by J.R.R. Tolkien" width="180" height="200">
+                    <div class="book-info">
+                        <h3>The Hobbit</h3>
+                        <p>J.R.R. Tolkien</p>
+                        <p>$14.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="book-tooltip">
+                        <strong>Author:</strong><h4> Leo Tolstoy</h4>
+                        <p><strong>Description:</strong> his novels as feeling less like constructed fiction and more like direct, raw life itself, 
+                            as if the world were writing through him.</p>
+                </div>
+                </div>
+                <div class="book-card" data-title="A Wizard of Earthsea" data-author="Ursula K. Le Guin" data-price="11.99" data-category="fantasy">
+                    <img src="https://covers.openlibrary.org/b/id/7222166-L.jpg" alt="A Wizard of Earthsea by Ursula K. Le Guin" width="180" height="200">
+                    <div class="book-info">
+                        <h3>A Wizard of Earthsea</h3>
+                        <p>Ursula K. Le Guin</p>
+                        <p>$11.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="book-tooltip">
+                        <strong>Author:</strong><h4> Leo Tolstoy</h4>
+                        <p><strong>Description:</strong> his novels as feeling less like constructed fiction and more like direct, raw life itself, 
+                            as if the world were writing through him.</p>
+                </div>
+                </div>
+                <div class="book-card" data-title="The Name of the Wind" data-author="Patrick Rothfuss" data-price="16.99" data-category="fantasy">
+                    <img src="https://covers.openlibrary.org/b/id/7222401-L.jpg" alt="The Name of the Wind by Patrick Rothfuss" width="180" height="200">
+                    <div class="book-info">
+                        <h3>The Name of the Wind</h3>
+                        <p>Patrick Rothfuss</p>
+                        <p>$16.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="book-tooltip">
+                        <strong>Author:</strong><h4> Leo Tolstoy</h4>
+                        <p><strong>Description:</strong> his novels as feeling less like constructed fiction and more like direct, raw life itself, 
+                            as if the world were writing through him.</p>
+                </div>
+                </div>
+                <div class="book-card" data-title="Mistborn" data-author="Brandon Sanderson" data-price="15.99" data-category="fantasy">
+                    <img src="https://covers.openlibrary.org/b/id/7222411-L.jpg" alt="Mistborn by Brandon Sanderson" width="180" height="200">
+                    <div class="book-info">
+                        <h3>Mistborn</h3>
+                        <p>Brandon Sanderson</p>
+                        <p>$15.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="book-tooltip">
+                        <strong>Author:</strong><h4> Leo Tolstoy</h4>
+                        <p><strong>Description:</strong> his novels as feeling less like constructed fiction and more like direct, raw life itself, 
+                            as if the world were writing through him.</p>
+                </div>
+                </div>
+                <div class="book-card" data-title="The Lies of Locke Lamora" data-author="Scott Lynch" data-price="14.99" data-category="fantasy">
+                    <img src="https://covers.openlibrary.org/b/id/7222421-L.jpg" alt="The Lies of Locke Lamora by Scott Lynch" width="180" height="200">
+                    <div class="book-info">
+                        <h3>The Lies of Locke Lamora</h3>
+                        <p>Scott Lynch</p>
+                        <p>$14.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="book-tooltip">
+                        <strong>Author:</strong><h4> Leo Tolstoy</h4>
+                        <p><strong>Description:</strong> his novels as feeling less like constructed fiction and more like direct, raw life itself, 
+                            as if the world were writing through him.</p>
+                </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="biography" class="category">
+            <h2>Biography</h2>
+            <div class="books-container">
+                <div class="book-card" data-title="Steve Jobs" data-author="Walter Isaacson" data-price="16.99" data-category="biography">
+                    <img src="https://covers.openlibrary.org/b/id/7222271-L.jpg" alt="Steve Jobs by Walter Isaacson" width="180" height="200">
+                    <div class="book-info">
+                        <h3>Steve Jobs</h3>
+                        <p>Walter Isaacson</p>
+                        <p>$16.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="book-tooltip">
+                        <strong>Author:</strong><h4> Leo Tolstoy</h4>
+                        <p><strong>Description:</strong> his novels as feeling less like constructed fiction and more like direct, raw life itself, 
+                            as if the world were writing through him.</p>
+                </div>
+                </div>
+                <div class="book-card" data-title="Educated" data-author="Tara Westover" data-price="14.99" data-category="biography">
+                    <img src="https://covers.openlibrary.org/b/id/7255471-L.jpg" alt="Educated by Tara Westover" width="180" height="200">
+                    <div class="book-info">
+                        <h3>Educated</h3>
+                        <p>Tara Westover</p>
+                        <p>$14.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="book-tooltip">
+                        <strong>Author:</strong><h4> Leo Tolstoy</h4>
+                        <p><strong>Description:</strong> his novels as feeling less like constructed fiction and more like direct, raw life itself, 
+                            as if the world were writing through him.</p>
+                </div>
+                </div>
+                <div class="book-card" data-title="Becoming" data-author="Michelle Obama" data-price="17.99" data-category="biography">
+                    <img src="https://covers.openlibrary.org/b/id/7222431-L.jpg" alt="Becoming by Michelle Obama" width="180" height="200">
+                    <div class="book-info">
+                        <h3>Becoming</h3>
+                        <p>Michelle Obama</p>
+                        <p>$17.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="book-tooltip">
+                        <strong>Author:</strong><h4> Leo Tolstoy</h4>
+                        <p><strong>Description:</strong> his novels as feeling less like constructed fiction and more like direct, raw life itself, 
+                            as if the world were writing through him.</p>
+                </div>
+                </div>
+                <div class="book-card" data-title="The Autobiography of Malcolm X" data-author="Malcolm X" data-price="15.99" data-category="biography">
+                    <img src="https://covers.openlibrary.org/b/id/7222441-L.jpg" alt="The Autobiography of Malcolm X by Malcolm X" width="180g" height="200">
+                    <div class="book-info">
+                        <h3>The Autobiography of Malcolm X</h3>
+                        <p>Malcolm X</p>
+                        <p>$15.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="book-tooltip">
+                        <strong>Author:</strong><h4> Leo Tolstoy</h4>
+                        <p><strong>Description:</strong> his novels as feeling less like constructed fiction and more like direct, raw life itself, 
+                            as if the world were writing through him.</p>
+                </div>
+                </div>
+                <div class="book-card" data-title="Born a Crime" data-author="Trevor Noah" data-price="14.99" data-category="biography">
+                    <img src="https://covers.openlibrary.org/b/id/7222451-L.jpg" alt="Born a Crime by Trevor Noah" width="180" height="200">
+                    <div class="book-info">
+                        <h3>Born a Crime</h3>
+                        <p>Trevor Noah</p>
+                        <p>$14.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="book-tooltip">
+                        <strong>Author:</strong><h4> Leo Tolstoy</h4>
+                        <p><strong>Description:</strong> his novels as feeling less like constructed fiction and more like direct, raw life itself, 
+                            as if the world were writing through him.</p>
+                </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="history" class="category">
+            <h2>History</h2>
+            <div class="books-container">
+                <div class="book-card" data-title="Sapiens" data-author="Yuval Noah Harari" data-price="17.99" data-category="history">
+                    <img src="https://covers.openlibrary.org/b/id/7255461-L.jpg" alt="Sapiens by Yuval Noah Harari" width="180" height="200">
+                    <div class="book-info">
+                        <h3>Sapiens</h3>
+                        <p>Yuval Noah Harari</p>
+                        <p>$17.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="book-tooltip">
+                        <strong>Author:</strong><h4> Leo Tolstoy</h4>
+                        <p><strong>Description:</strong> his novels as feeling less like constructed fiction and more like direct, raw life itself, 
+                            as if the world were writing through him.</p>
+                </div>
+                </div>
+                <div class="book-card" data-title="The Guns of August" data-author="Barbara Tuchman" data-price="15.99" data-category="history">
+                    <img src="https://covers.openlibrary.org/b/id/7222281-L.jpg" alt="The Guns of August by Barbara Tuchman" width="180" height="200">
+                    <div class="book-info">
+                        <h3>The Guns of August</h3>
+                        <p>Barbara Tuchman</p>
+                        <p>$15.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="book-tooltip">
+                        <strong>Author:</strong><h4> Leo Tolstoy</h4>
+                        <p><strong>Description:</strong> his novels as feeling less like constructed fiction and more like direct, raw life itself, 
+                            as if the world were writing through him.</p>
+                </div>
+                </div>
+                <div class="book-card" data-title="Guns, Germs, and Steel" data-author="Jared Diamond" data-price="16.99" data-category="history">
+                    <img src="https://covers.openlibrary.org/b/id/7222461-L.jpg" alt="Guns, Germs, and Steel by Jared Diamond" width="180" height="200">
+                    <div class="book-info">
+                        <h3>Guns, Germs, and Steel</h3>
+                        <p>Jared Diamond</p>
+                        <p>$16.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="book-tooltip">
+                        <strong>Author:</strong><h4> Leo Tolstoy</h4>
+                        <p><strong>Description:</strong> his novels as feeling less like constructed fiction and more like direct, raw life itself, 
+                            as if the world were writing through him.</p>
+                </div>
+                </div>
+                <div class="book-card" data-title="The Rise and Fall of the Third Reich" data-author="William L. Shirer" data-price="19.99" data-category="history">
+                    <img src="https://covers.openlibrary.org/b/id/7222471-L.jpg" alt="The Rise and Fall of the Third Reich by William L. Shirer" width="180" height="200">
+                    <div class="book-info">
+                        <h3>The Rise and Fall of the Third Reich</h3>
+                        <p>William L. Shirer</p>
+                        <p>$19.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="book-tooltip">
+                        <strong>Author:</strong><h4> Leo Tolstoy</h4>
+                        <p><strong>Description:</strong> his novels as feeling less like constructed fiction and more like direct, raw life itself, 
+                            as if the world were writing through him.</p>
+                </div>
+                </div>
+                <div class="book-card" data-title="A People's History of the United States" data-author="Howard Zinn" data-price="15.99" data-category="history">
+                    <img src="https://covers.openlibrary.org/b/id/7222481-L.jpg" alt="A People's History of the United States by Howard Zinn" width="180" height="200">
+                    <div class="book-info">
+                        <h3>A People's History of the United States</h3>
+                        <p>Howard Zinn</p>
+                        <p>$15.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="book-tooltip">
+                        <strong>Author:</strong><h4> Leo Tolstoy</h4>
+                        <p><strong>Description:</strong> his novels as feeling less like constructed fiction and more like direct, raw life itself, 
+                            as if the world were writing through him.</p>
+                </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="science" class="category">
+            <h2>Science</h2>
+            <div class="books-container">
+                <div class="book-card" data-title="A Brief History of Time" data-author="Stephen Hawking" data-price="14.99" data-category="science">
+                    <img src="https://covers.openlibrary.org/b/id/7222491-L.jpg" alt="A Brief History of Time by Stephen Hawking" width="180" height="200">
+                    <div class="book-info">
+                        <h3>A Brief History of Time</h3>
+                        <p>Stephen Hawking</p>
+                        <p>$14.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="book-tooltip">
+                        <strong>Author:</strong><h4> Leo Tolstoy</h4>
+                        <p><strong>Description:</strong> his novels as feeling less like constructed fiction and more like direct, raw life itself, 
+                            as if the world were writing through him.</p>
+                </div>
+                </div>
+                <div class="book-card" data-title="The Gene" data-author="Siddhartha Mukherjee" data-price="16.99" data-category="science">
+                    <img src="https://covers.openlibrary.org/b/id/7222501-L.jpg" alt="The Gene by Siddhartha Mukherjee" width="180" height="200">
+                    <div class="book-info">
+                        <h3>The Gene</h3>
+                        <p>Siddhartha Mukherjee</p>
+                        <p>$16.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="book-tooltip">
+                        <strong>Author:</strong><h4> Leo Tolstoy</h4>
+                        <p><strong>Description:</strong> his novels as feeling less like constructed fiction and more like direct, raw life itself, 
+                            as if the world were writing through him.</p>
+                </div>
+                </div>
+                <div class="book-card" data-title="Cosmos" data-author="Carl Sagan" data-price="15.99" data-category="science">
+                    <img src="https://covers.openlibrary.org/b/id/7222511-L.jpg" alt="Cosmos by Carl Sagan" width="180" height="200">
+                    <div class="book-info">
+                        <h3>Cosmos</h3>
+                        <p>Carl Sagan</p>
+                        <p>$15.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="book-tooltip">
+                        <strong>Author:</strong><h4> Leo Tolstoy</h4>
+                        <p><strong>Description:</strong> his novels as feeling less like constructed fiction and more like direct, raw life itself, 
+                            as if the world were writing through him.</p>
+                </div>
+                </div>
+                <div class="book-card" data-title="The Body Keeps the Score" data-author="Bessel van der Kolk" data-price="17.99" data-category="science">
+                    <img src="https://covers.openlibrary.org/b/id/7222521-L.jpg" alt="The Body Keeps the Score by Bessel van der Kolk" width="180" height="200">
+                    <div class="book-info">
+                        <h3>The Body Keeps the Score</h3>
+                        <p>Bessel van der Kolk</p>
+                        <p>$17.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="book-tooltip">
+                        <strong>Author:</strong><h4> Leo Tolstoy</h4>
+                        <p><strong>Description:</strong> his novels as feeling less like constructed fiction and more like direct, raw life itself, 
+                            as if the world were writing through him.</p>
+                </div>
+                </div>
+                <div class="book-card" data-title="Sapiens" data-author="Yuval Noah Harari" data-price="17.99" data-category="science">
+                    <img src="https://covers.openlibrary.org/b/id/7255461-L.jpg" alt="Sapiens by Yuval Noah Harari" width="180" height="200">
+                    <div class="book-info">
+                        <h3>Sapiens</h3>
+                        <p>Yuval Noah Harari</p>
+                        <p>$17.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="book-tooltip">
+                        <strong>Author:</strong><h4> Leo Tolstoy</h4>
+                        <p><strong>Description:</strong> his novels as feeling less like constructed fiction and more like direct, raw life itself, 
+                            as if the world were writing through him.</p>
+                </div>
+                </div>
+            </div>
+        </section>
+                <section class="best-authors">
+                <p class="section-tag">This month</p>
+                <h2 style="  font-size:36px; margin: 0 0 50px;">Most users top pick</h2>
+                <div class="authors"> 
+                    <div class="author-card">
+                    <div class="author-img">
+                            <img src="image/fiction/hadd.jpg" alt="Artist Hadias Alemayhu">
+                        </div>
+                           <p class="author-name">Hadis Alemayhu</p>
+                        <p>ፍቅር እስከ መቃብር</a></p>
+<div class="author-info">you don't just read Hadis Alemayhu's books but feel it, lives it. from showing the peak of loving a truly human being to tragedy ending. tells there is no limit for love but inevitable death.  </div>
+                </div>
+                </a>
+                    <div class="author-card">
+                        
+                     
+                        <div class="author-img">
+                            <img src="image/fiction/ephrems.jpg" alt="Artist ephrem seyoum">
+                        </div>
+                           <p class="author-name">Ephrem Seyeum</p>
+                        <p>ተቤራ</p>
+                        <div class="author-info">Ephrem Seyeum's novel gives a peace of mind to readers, especially tebera approves how this author is one of the best.</div>
+
+                </div>
+                
+                    <div class="author-card">
+                    
+                        <div class="author-img">
+                            <img src="image/fiction/dawit.png" alt="Artist Dawit Wondmagegn">
+                        </div>
+                           <p class="author-name">Dawit Wondmagegn</p>
+                        <p>የተለመደ ምክት</p>
+                        <div class="author-info">one of his best works is Alemnor and yetlmede mikit which users don't blink twice to buy it, Got time for fiction? then there they are!</div>
+
+                </div>
+                 <div class="author-card">
+                    
+                        <div class="author-img">
+                            <img src="image/fiction/sisay.jpg" alt="Artist Sisay Negussie">
+                        </div>
+                           <p class="author-name">Sisay Negussie</p>
+                        <p> ሰመመን</p>
+<div class="author-info">Sisay Negussie books has been the most bought items for the past 30 days, his writings proves that, check it by yourself!</div>
+                </div>
+                
+                
+                </div>
+              </section>
+    </main>
+
+   <footer>
+        <div class="footer-content">
+
+            <div class="footer-section">
+                <h3 style="color:blueviolet;"><i class="fas fa-book"></i> About BookSphere</h3>
+                <p style="font-size: 14px;">BookSphere is your ultimate online destination for a diverse collection of books across all genres. 
+                    Whether you're a fiction fanatic, a history buff, or a science enthusiast, we have something for every reader.</p>
+            </div>
+            
+            <div class="footer-section">
+                <h3 style="color:blueviolet;"><i class="fas fa-compass"></i> Quick Links</h3>
+                <ul>
+                    <li><a href="#" ><i class="fas fa-star"></i> New Arrivals</a></li>
+                    <li><a href="#" ><i class="fas fa-trophy"></i> Bestsellers</a></li>
+                    <li><a href="#" ><i class="fas fa-user-edit"></i> Author Spotlight</a></li>
+                    <li><a href="#" ><i class="fas fa-list"></i> Reading Lists</a></li>
+                    <li><a href="#" ><i class="fas fa-calendar-alt"></i> Literary Events</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3 style="color:blueviolet;"><i class="fas fa-headset"></i> Customer Service</h3>
+                <ul>
+                    <li><a href="#" ><i class="fas fa-envelope"></i> Contact Us</a></li>
+                    <li><a href="#"><i class="fas fa-truck"></i> Shipping Info</a></li>
+                    <li><a href="#" ><i class="fas fa-undo"></i> Returns & Exchanges</a></li>
+                    <li><a href="#" ><i class="fas fa-question-circle"></i> FAQ</a></li>
+                    <li><a href="#"><i class="fas fa-life-ring"></i> 24/7 Support</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3 style="color:blueviolet;"><i class="fas fa-share-alt"></i> Connect With Us</h3>
+                <div class="social-icons">
+                    <a href="#" class="social-icon" ><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-icon" ><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-icon" ><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon" ><i class="fab fa-youtube"></i></a>
+                    <a href="#" class="social-icon" ><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                
+               
+            </div>
+        </div> 
+         <p style="text-align: center; text-transform: uppercase; color:darkgray; border-top: 1px solid blanchedalmond;;">&copy; 2026 BookSphere. All rights reserved.</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
