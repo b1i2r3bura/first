@@ -33,6 +33,7 @@ document.addEventListener('DOMContentLoaded', function() {   // let the html ful
     updateCartCount(); // update cart count
     setupEventListeners(); // set up event listeners for search, cart, and logout buttons
     setupScrollAnimations(); // set up scroll animations for book cards
+    setupMobileMenu(); // set up mobile menu toggle
 
  if (window.location.pathname.includes('cart.html')) {       // If on cart page, display cart items
         displayCart();  // it's a function that displays cart items
@@ -310,4 +311,34 @@ function displayOrderConfirmation() {
     categories.forEach(category => {
         observer.observe(category);
     });
+}
+
+function setupMobileMenu() {
+    const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+    const userActions = document.getElementById('userActions');
+    
+    if (mobileMenuBtn && userActions) {
+        mobileMenuBtn.addEventListener('click', function() {
+            userActions.classList.toggle('active');
+            // Toggle between bars and times icon
+            const icon = mobileMenuBtn.querySelector('i');
+            if (userActions.classList.contains('active')) {
+                icon.classList.remove('fa-bars');
+                icon.classList.add('fa-times');
+            } else {
+                icon.classList.remove('fa-times');
+                icon.classList.add('fa-bars');
+            }
+        });
+        
+        // Close menu when clicking outside
+        document.addEventListener('click', function(e) {
+            if (!mobileMenuBtn.contains(e.target) && !userActions.contains(e.target)) {
+                userActions.classList.remove('active');
+                const icon = mobileMenuBtn.querySelector('i');
+                icon.classList.remove('fa-times');
+                icon.classList.add('fa-bars');
+            }
+        });
+    }
 }
