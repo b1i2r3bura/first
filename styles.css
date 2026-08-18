@@ -470,28 +470,40 @@ footer {
 /* Mobile Menu Button */
 .mobile-menu-btn {
     display: none;
-    background: none;
+    background: rgba(255,255,255,0.2);
     border: none;
     color: white;
     font-size: 1.5rem;
     cursor: pointer;
     padding: 0.5rem;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+.mobile-menu-btn:hover {
+    background: rgba(255,255,255,0.3);
 }
 
 @media (max-width: 768px) {
     .mobile-menu-btn {
         display: block;
+        position: absolute;
+        top: 50%;
+        right: 20px;
+        transform: translateY(-50%);
     }
 
     .header-content {
         flex-direction: column;
         gap: 1rem;
         padding: 0 15px;
+        position: relative;
     }
 
     .logo {
         font-size: 1.5rem;
         text-align: center;
+        width: 100%;
     }
 
     .logo i {
@@ -513,6 +525,10 @@ footer {
         flex-direction: column;
         width: 100%;
         gap: 0.5rem;
+        background: rgba(255,255,255,0.1);
+        padding: 1rem;
+        border-radius: 8px;
+        margin-top: 0.5rem;
     }
 
     .user-actions.active {
